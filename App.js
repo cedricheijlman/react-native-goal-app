@@ -1,16 +1,12 @@
-import { StatusBar } from "expo-status-bar";
 import { useState } from "react";
 import {
   StyleSheet,
   Text,
   View,
-  Button,
-  TextInput,
   Modal,
   ScrollView,
   TouchableOpacity,
 } from "react-native";
-import { Alert } from "react-native-web";
 
 import GoalItem from "./components/GoalItem";
 import TextInputBox from "./components/TextInputBox";

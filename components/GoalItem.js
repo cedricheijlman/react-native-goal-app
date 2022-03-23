@@ -1,17 +1,9 @@
 import React from "react";
-import {
-  View,
-  Text,
-  StyleSheet,
-  Pressable,
-  TouchableOpacity,
-  Alert,
-} from "react-native";
+import { Text, StyleSheet, TouchableOpacity, Alert } from "react-native";
 
 const GoalItem = ({ item, allGoals, itemId, setGoalItems }) => {
   // handle delete goal
   const handleDelete = (itemId) => {
-    console.log(itemId);
     setGoalItems((items) => items.filter((item) => item.id !== itemId));
   };
 
